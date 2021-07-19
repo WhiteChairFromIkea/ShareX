@@ -539,6 +539,7 @@ namespace ShareX.ScreenCaptureLib
             }
         }
 
+        /* Return true if user confirms editor closure */
         internal bool ShowExitConfirmation()
         {
             bool result = true;
@@ -546,8 +547,21 @@ namespace ShareX.ScreenCaptureLib
             if (IsModified)
             {
                 Pause();
-                result = MessageBox.Show(this, Resources.RegionCaptureForm_ShowExitConfirmation_Text, Resources.RegionCaptureForm_ShowExitConfirmation_ShareXImageEditor,
-                    MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes;
+                DialogResult result1 = MessageBox.Show(this, Resources.RegionCaptureForm_ShowExitConfirmation_Text, Resources.RegionCaptureForm_ShowExitConfirmation_SaveChanges,
+                    MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+
+                switch (result1)
+                {
+                    case DialogResult.Yes:
+                        this.OnSaveImageRequested();
+                        break;
+                    case DialogResult.No:
+                        break; // Exit editor without saving
+                    case DialogResult.Cancel:
+                        result = false; // Return to editor;
+                        break;
+                }
+
                 Resume();
             }
 
