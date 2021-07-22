@@ -768,6 +768,9 @@
   <data name="tsbScreenshotsFolder.Text" xml:space="preserve">
     <value>Screenshots folder...</value>
   </data>
+  <data name="tsbHistory.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="tsbHistory.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -780,6 +783,9 @@
   <data name="tsbHistory.Text" xml:space="preserve">
     <value>History...</value>
   </data>
+  <data name="tsbImageHistory.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="tsbImageHistory.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -791,6 +797,9 @@
   </data>
   <data name="tsbImageHistory.Text" xml:space="preserve">
     <value>Image history...</value>
+  </data>
+  <data name="tsbNews.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="tsbNews.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -805,40 +814,43 @@
     <value>News</value>
   </data>
   <data name="tsmiShowDebugLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="tsmiShowDebugLog.Text" xml:space="preserve">
     <value>Debug log...</value>
   </data>
   <data name="tsmiTestImageUpload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Test image upload</value>
   </data>
   <data name="tsmiTestTextUpload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="tsmiTestTextUpload.Text" xml:space="preserve">
     <value>Test text upload</value>
   </data>
   <data name="tsmiTestFileUpload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>Test file upload</value>
   </data>
   <data name="tsmiTestURLShortener.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="tsmiTestURLShortener.Text" xml:space="preserve">
     <value>Test URL shortener</value>
   </data>
   <data name="tsmiTestURLSharing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Test URL sharing</value>
+  </data>
+  <data name="tsddbDebug.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="tsddbDebug.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -852,6 +864,9 @@
   <data name="tsddbDebug.Text" xml:space="preserve">
     <value>Debug</value>
   </data>
+  <data name="tsbDonate.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="tsbDonate.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -863,6 +878,9 @@
   </data>
   <data name="tsbDonate.Text" xml:space="preserve">
     <value>Donate...</value>
+  </data>
+  <data name="tsbAbout.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="tsbAbout.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -1810,37 +1828,37 @@
     <value>Image history...</value>
   </data>
   <data name="tsmiTrayShowDebugLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="tsmiTrayShowDebugLog.Text" xml:space="preserve">
     <value>Debug log...</value>
   </data>
   <data name="tsmiTrayTestImageUpload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="tsmiTrayTestImageUpload.Text" xml:space="preserve">
     <value>Test image upload</value>
   </data>
   <data name="tsmiTrayTestTextUpload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="tsmiTrayTestTextUpload.Text" xml:space="preserve">
     <value>Test text upload</value>
   </data>
   <data name="tsmiTrayTestFileUpload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="tsmiTrayTestFileUpload.Text" xml:space="preserve">
     <value>Test file upload</value>
   </data>
   <data name="tsmiTrayTestURLShortener.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="tsmiTrayTestURLShortener.Text" xml:space="preserve">
     <value>Test URL shortener</value>
   </data>
   <data name="tsmiTrayTestURLSharing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 22</value>
+    <value>172, 22</value>
   </data>
   <data name="tsmiTrayTestURLSharing.Text" xml:space="preserve">
     <value>Test URL sharing</value>
@@ -2103,6 +2121,9 @@
   <data name="tsSocialButtons.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
   </data>
+  <data name="tsbTwitter.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="tsbTwitter.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
@@ -2114,6 +2135,9 @@
   </data>
   <data name="tsbTwitter.ToolTipText" xml:space="preserve">
     <value>Follow our Twitter account</value>
+  </data>
+  <data name="tsbDiscord.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="tsbDiscord.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -2127,6 +2151,9 @@
   <data name="tsbDiscord.ToolTipText" xml:space="preserve">
     <value>Join our Discord server</value>
   </data>
+  <data name="tsbPatreon.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="tsbPatreon.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
@@ -2139,6 +2166,9 @@
   <data name="tsbPatreon.ToolTipText" xml:space="preserve">
     <value>Support us on Patreon</value>
   </data>
+  <data name="tsbBitcoin.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="tsbBitcoin.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
@@ -2150,6 +2180,9 @@
   </data>
   <data name="tsbBitcoin.ToolTipText" xml:space="preserve">
     <value>Support us using cryptocurrency</value>
+  </data>
+  <data name="tsbGitHub.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="tsbGitHub.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>

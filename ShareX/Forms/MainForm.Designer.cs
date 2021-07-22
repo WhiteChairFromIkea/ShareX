@@ -977,23 +977,23 @@
             // 
             // tsbHistory
             // 
-            this.tsbHistory.Image = global::ShareX.Properties.Resources.application_blog;
             resources.ApplyResources(this.tsbHistory, "tsbHistory");
+            this.tsbHistory.Image = global::ShareX.Properties.Resources.application_blog;
             this.tsbHistory.Name = "tsbHistory";
             this.tsbHistory.Click += new System.EventHandler(this.tsbHistory_Click);
             // 
             // tsbImageHistory
             // 
-            this.tsbImageHistory.Image = global::ShareX.Properties.Resources.application_icon_large;
             resources.ApplyResources(this.tsbImageHistory, "tsbImageHistory");
+            this.tsbImageHistory.Image = global::ShareX.Properties.Resources.application_icon_large;
             this.tsbImageHistory.Name = "tsbImageHistory";
             this.tsbImageHistory.Click += new System.EventHandler(this.tsbImageHistory_Click);
             // 
             // tsbNews
             // 
             this.tsbNews.Counter = 0;
-            this.tsbNews.Image = global::ShareX.Properties.Resources.megaphone;
             resources.ApplyResources(this.tsbNews, "tsbNews");
+            this.tsbNews.Image = global::ShareX.Properties.Resources.megaphone;
             this.tsbNews.Name = "tsbNews";
             this.tsbNews.Click += new System.EventHandler(this.tsbNews_Click);
             // 
@@ -1006,8 +1006,8 @@
             this.tsmiTestFileUpload,
             this.tsmiTestURLShortener,
             this.tsmiTestURLSharing});
-            this.tsddbDebug.Image = global::ShareX.Properties.Resources.traffic_cone;
             resources.ApplyResources(this.tsddbDebug, "tsddbDebug");
+            this.tsddbDebug.Image = global::ShareX.Properties.Resources.traffic_cone;
             this.tsddbDebug.Name = "tsddbDebug";
             // 
             // tsmiShowDebugLog
@@ -1055,15 +1055,15 @@
             // tsbDonate
             // 
             this.tsbDonate.AnimationSpeed = 0.8F;
-            this.tsbDonate.Image = global::ShareX.Properties.Resources.heart;
             resources.ApplyResources(this.tsbDonate, "tsbDonate");
+            this.tsbDonate.Image = global::ShareX.Properties.Resources.heart;
             this.tsbDonate.Name = "tsbDonate";
             this.tsbDonate.Click += new System.EventHandler(this.tsbDonate_Click);
             // 
             // tsbAbout
             // 
-            this.tsbAbout.Image = global::ShareX.Properties.Resources.crown;
             resources.ApplyResources(this.tsbAbout, "tsbAbout");
+            this.tsbAbout.Image = global::ShareX.Properties.Resources.crown;
             this.tsbAbout.Name = "tsbAbout";
             this.tsbAbout.Click += new System.EventHandler(this.tsbAbout_Click);
             // 
@@ -2425,8 +2425,8 @@
             // tsbTwitter
             // 
             this.tsbTwitter.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbTwitter.Image = global::ShareX.Properties.Resources.Twitter_32x32;
             resources.ApplyResources(this.tsbTwitter, "tsbTwitter");
+            this.tsbTwitter.Image = global::ShareX.Properties.Resources.Twitter_32x32;
             this.tsbTwitter.Margin = new System.Windows.Forms.Padding(2, 1, 0, 2);
             this.tsbTwitter.Name = "tsbTwitter";
             this.tsbTwitter.Padding = new System.Windows.Forms.Padding(1);
@@ -2435,8 +2435,8 @@
             // tsbDiscord
             // 
             this.tsbDiscord.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbDiscord.Image = global::ShareX.Properties.Resources.Discord_32x32;
             resources.ApplyResources(this.tsbDiscord, "tsbDiscord");
+            this.tsbDiscord.Image = global::ShareX.Properties.Resources.Discord_32x32;
             this.tsbDiscord.Name = "tsbDiscord";
             this.tsbDiscord.Padding = new System.Windows.Forms.Padding(1);
             this.tsbDiscord.Click += new System.EventHandler(this.TsbDiscord_Click);
@@ -2444,8 +2444,8 @@
             // tsbPatreon
             // 
             this.tsbPatreon.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbPatreon.Image = global::ShareX.Properties.Resources.Patreon_32x32;
             resources.ApplyResources(this.tsbPatreon, "tsbPatreon");
+            this.tsbPatreon.Image = global::ShareX.Properties.Resources.Patreon_32x32;
             this.tsbPatreon.Name = "tsbPatreon";
             this.tsbPatreon.Padding = new System.Windows.Forms.Padding(1);
             this.tsbPatreon.Click += new System.EventHandler(this.TsbPatreon_Click);
@@ -2453,8 +2453,8 @@
             // tsbBitcoin
             // 
             this.tsbBitcoin.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbBitcoin.Image = global::ShareX.Properties.Resources.Bitcoin_32x32;
             resources.ApplyResources(this.tsbBitcoin, "tsbBitcoin");
+            this.tsbBitcoin.Image = global::ShareX.Properties.Resources.Bitcoin_32x32;
             this.tsbBitcoin.Name = "tsbBitcoin";
             this.tsbBitcoin.Padding = new System.Windows.Forms.Padding(1);
             this.tsbBitcoin.Click += new System.EventHandler(this.TsbBitcoin_Click);
@@ -2462,8 +2462,8 @@
             // tsbGitHub
             // 
             this.tsbGitHub.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbGitHub.Image = global::ShareX.Properties.Resources.GitHub_Black_32x32;
             resources.ApplyResources(this.tsbGitHub, "tsbGitHub");
+            this.tsbGitHub.Image = global::ShareX.Properties.Resources.GitHub_Black_32x32;
             this.tsbGitHub.Name = "tsbGitHub";
             this.tsbGitHub.Padding = new System.Windows.Forms.Padding(1);
             this.tsbGitHub.Click += new System.EventHandler(this.TsbGitHub_Click);
