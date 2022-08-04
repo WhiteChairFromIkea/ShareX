@@ -55,8 +55,9 @@ namespace ShareX.HelpersLib
 
         public Logger(string logFilePath)
         {
-            FileWrite = true;
+            FileWrite = false;
             LogFilePath = logFilePath;
+            return;
             FileHelpers.CreateDirectoryFromFilePath(LogFilePath);
         }
 
