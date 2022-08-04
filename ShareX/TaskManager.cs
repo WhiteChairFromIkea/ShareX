@@ -429,7 +429,7 @@ namespace ShareX
 
                     if (Program.Settings.SaveSettingsAfterTaskCompleted && !IsBusy)
                     {
-                        SettingManager.SaveAllSettingsAsync();
+                        //SettingManager.SaveAllSettingsAsync();
                     }
                 }
             }

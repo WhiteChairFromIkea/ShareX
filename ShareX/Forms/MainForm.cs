@@ -1304,7 +1304,7 @@ namespace ShareX
             {
                 e.Cancel = true;
                 Hide();
-                SettingManager.SaveAllSettingsAsync();
+                //SettingManager.SaveAllSettingsAsync();
 
                 if (Program.Settings.FirstTimeMinimizeToTray)
                 {
@@ -2111,7 +2111,7 @@ namespace ShareX
         {
             if (trayMenuSaveSettings)
             {
-                SettingManager.SaveAllSettingsAsync();
+               // SettingManager.SaveAllSettingsAsync();
             }
 
             trayMenuSaveSettings = true;
